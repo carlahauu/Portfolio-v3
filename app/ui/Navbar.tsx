@@ -6,7 +6,7 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
 export default function Navbar() {
   return (
-    <div className="fixed w-full justify-center items-center flex mt-10 bg-white py-3 z-50">
+    <div className="fixed w-full justify-center items-center flex mt-2 bg-white py-3 z-50">
       <nav className="z-50 md:w-[50%] w-[90%] py-3 rounded-md">
         <div className="flex items-center space-x-5">
           <Link

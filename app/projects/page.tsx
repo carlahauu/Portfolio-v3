@@ -34,7 +34,7 @@ export default function Projects() {
 
   return (
     <div className="flex min-h-screen items-center justify-center font-sans">
-      <main className="space-y-10 flex flex-col min-h-screen md:w-[50%] w-[90%] mt-38">
+      <main className="space-y-10 flex flex-col min-h-screen md:w-[50%] w-[90%] mt-30">
         <div className="flex">
           <SearchIcon className="absolute ml-4 mt-3.5 text-zinc-400" />
           <input

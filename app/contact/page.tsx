@@ -36,7 +36,7 @@ export default function Contact() {
 
   return (
     <div className="flex min-h-screen items-center justify-center font-sans">
-      <main className="space-y-8 flex flex-col min-h-screen md:w-[50%] w-[90%] py-38">
+      <main className="space-y-8 flex flex-col min-h-screen md:w-[50%] w-[90%] py-30">
         <div className="space-y-2">
           <h1 className="text-xl font-semibold">Happy to connect!</h1>
           <p className="text-zinc-600">
