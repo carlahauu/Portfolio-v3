@@ -39,8 +39,7 @@ export default function Footer() {
             </Link>
             <Link
               className="flex space-x-1 group transform transition duration-400 hover:scale-110"
-              href={"/resume.pdf"}
-              download="Carla_Hau_Resume.pdf"
+              href={"/Carla_Hau_Resume.pdf"}
             >
               <Description className="text-zinc-500 hover:text-zinc-800 hover:cursor-pointer"></Description>
               <p className="hidden group-hover:block">Resume</p>

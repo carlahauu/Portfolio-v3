@@ -56,8 +56,7 @@ export default function Navbar() {
               </Link>
               <Link
                 className="underline underline-offset-5 hover:scale-97"
-                href={"/resume.pdf"}
-                download="Carla_Hau_Resume.pdf"
+                href={"/Carla_Hau_Resume.pdf"}
               >
                 Resume
               </Link>
