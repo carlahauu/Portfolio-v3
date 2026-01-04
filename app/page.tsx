@@ -122,8 +122,7 @@ export default function Home() {
             ))}
             <ArrowLink
               text="View my resume for more details"
-              href={"/resume.pdf"}
-              download="Carla_Hau_Resume.pdf"
+              href={"/Carla_Hau_Resume.pdf"}
             />
           </div>
         </div>
