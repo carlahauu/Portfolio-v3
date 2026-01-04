@@ -49,25 +49,25 @@ export default function Navbar() {
             </div>
             <div className="flex space-x-3">
               <Link
-                className="underline underline-offset-5 hover:scale-97"
+                className="text-sm underline underline-offset-5 hover:scale-97"
                 href={"/about-me"}
               >
                 About
               </Link>
               <Link
-                className="underline underline-offset-5 hover:scale-97"
+                className="text-sm underline underline-offset-5 hover:scale-97"
                 href={"/Carla_Hau_Resume.pdf"}
               >
                 Resume
               </Link>
               <Link
-                className="underline underline-offset-5 hover:scale-97"
+                className="text-sm underline underline-offset-5 hover:scale-97"
                 href={"/projects"}
               >
                 Projects
               </Link>
               <Link
-                className="underline underline-offset-5 hover:scale-97"
+                className="text-sm underline underline-offset-5 hover:scale-97"
                 href={"/contact"}
               >
                 Contact
