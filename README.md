@@ -33,9 +33,11 @@
 
 ### Key Components 
 - SkillCarousel: Animated horizontal scrolling carousel for displaying skills with their respective logos
+  
 ![Screen Recording 2026-01-04 at 8 00 52 PM](https://github.com/user-attachments/assets/53f62c3c-e214-4d9a-9b98-56a90e5fdd18)
 
 - ImageCarousel: Carousel used for displaying any images, such as food spots or artists with names and subtitles.
+  
 ![Screen Recording 2026-01-04 at 7 57 57 PM](https://github.com/user-attachments/assets/2a909b31-e938-4546-90e2-f4f6d6b03a22)
 
 - ProjectCard: Card component for showcasing projects with an image, description, tech stack, and links to the GitHub Repo and Demo Link.
