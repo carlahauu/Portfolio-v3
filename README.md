@@ -1,37 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1 align="center">Portfolio Website</h1>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Status-Live-success" alt="Status">
+    <img src="https://img.shields.io/github/last-commit/carlahauu/Portfolio-v3" alt="Last Commit">
+    <img src="https://img.shields.io/badge/Next.js-16.1.1-black?logo=next.js" alt="Next.js Version">
+    <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-4+-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+    <img src="https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel" alt="Vercel">
+  </p>
+  <p>Check out the live demo: <a href="https://www.carlahau.com/">carlahau.com</a></p>
+  <p>⭐ If you like this portfolio, consider giving it a star!</p>
+  <img width="658" height="478" alt="image" src="https://github.com/user-attachments/assets/48cb9395-d118-404c-99dd-3e47c36d3904" />
+</div>
 
-## Getting Started
+### Pages 
+- Home (/) - Introduction, skills, work experience, and featured projects
+- About Me (/about-me) - Personal interests, hobbies, etc.
+- Projects (/projects) - Searchable project gallery
+- Contact (/contact) - Contact form
 
-First, run the development server:
+--- 
 
-```bash
+### Tech Stack 
+- Next.js
+- TypeScript
+- Tailwind CSS
+- MaterialUI Icons
+- Vercel
+- Web3Forms
+
+---
+
+### Key Components 
+- SkillCarousel: Animated horizontal scrolling carousel for displaying skills with their respective logos
+![Screen Recording 2026-01-04 at 8 00 52 PM](https://github.com/user-attachments/assets/53f62c3c-e214-4d9a-9b98-56a90e5fdd18)
+
+- ImageCarousel: Carousel used for displaying any images, such as food spots or artists with names and subtitles.
+![Screen Recording 2026-01-04 at 7 57 57 PM](https://github.com/user-attachments/assets/2a909b31-e938-4546-90e2-f4f6d6b03a22)
+
+- ProjectCard: Card component for showcasing projects with an image, description, tech stack, and links to the GitHub Repo and Demo Link.
+
+<img width="350" height="477" alt="image" src="https://github.com/user-attachments/assets/778a2a76-1a29-4e3f-8d16-c315ed8b960e" />
+
+- ArrowLink: Link component with arrow icon (from MaterialUI Icons) and hover effects.
+<img width="268" height="43" alt="image" src="https://github.com/user-attachments/assets/f09db608-cb20-4a91-973b-c38773c8a47e" />
+
+
+--- 
+
+### Animations 
+The project includes CSS animations in globals.css: 
+- animate-infinite-scroll: left to right infinite scrolling
+- animate-infinite-scroll-reverse: right to left infinite scrolling
+- mask-gradient: used for fade effect on carousel edges
+- animation pause on hover animate-infinite-scroll and animate-infinite-scroll-reverse
+- no animation for prefers-reduced-motion 
+
+---
+
+### Getting Started 
+1. Clone the repo
+```
+git clone https://github.com/carlahauu/Portfolio-v3.git
+cd Portfolio-v3
+```
+2. Install dependencies
+```
+npm install
+# or
+yarn install
+```
+3. Run the development server
+```
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+4. Open http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Using This as Reference
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Feel free to explore the code and use concepts/components as learning resources for your own portfolio. If you do use significant portions, please give credit and make it your own!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+❌ Don't: Copy this entire portfolio and just swap out the content
 
-## Learn More
+✅ Do: Learn from the components and build something unique! 
 
-To learn more about Next.js, take a look at the following resources:
+--- 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⭐ If you like this portfolio, consider giving it a star!
+Built with ❤️ by Carla Hau
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Portfolio-v3
