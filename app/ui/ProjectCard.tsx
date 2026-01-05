@@ -54,8 +54,8 @@ export default function ProjectCard({
           </Link>
         </div>
       </div>
-      <p className="px-5 mt-2">Tech Stack: {techStack}</p>
-      <p className="px-5 mb-5 mt-2">{description}</p>
+      <p className="px-5 mt-2 text-sm">Tech Stack: {techStack}</p>
+      <p className="px-5 mb-5 mt-2 text-sm">{description}</p>
     </div>
   );
 }

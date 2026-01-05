@@ -146,7 +146,7 @@ const kDramas = [
 
 export default function AboutMe() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans">
+    <div className="flex min-h-screen items-center justify-center text-sm">
       <main className="space-y-10 flex flex-col min-h-screen md:w-[50%] w-[90%] py-30">
         <h1 className="font-semibold">A bit more about myself</h1>
         <div>

@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { EmailOutlined } from "@mui/icons-material";
-import RoomIcon from "@mui/icons-material/Room";
 
 export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -35,11 +34,11 @@ export default function Contact() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans">
+    <div className="flex min-h-screen items-center justify-center">
       <main className="space-y-8 flex flex-col min-h-screen md:w-[50%] w-[90%] py-30">
         <div className="space-y-2">
-          <h1 className="text-xl font-semibold">Happy to connect!</h1>
-          <p className="text-zinc-600">
+          <h1 className="text-lg font-semibold">Happy to connect!</h1>
+          <p className="text-zinc-600 text-sm">
             Whether you're a recruiter, fellow developer, or just want to chat
             about tech, food, or tennis, I'd love to hear from you!
           </p>
@@ -49,16 +48,9 @@ export default function Contact() {
               href={"mailto:carlahau110@gmail.com"}
             >
               <EmailOutlined></EmailOutlined>
-              <p className="underline underline-offset-5">
+              <p className="underline underline-offset-5 text-sm">
                 carlahau110@gmail.com
               </p>
-            </Link>
-            <Link
-              className="flex space-x-1.5"
-              href={"mailto:carlahau110@gmail.com"}
-            >
-              <RoomIcon></RoomIcon>
-              <p>Los Angeles, CA</p>
             </Link>
           </div>
         </div>
@@ -85,7 +77,7 @@ export default function Contact() {
               </label>
               <input
                 id="name"
-                className="w-full border-2 border-zinc-200 rounded-lg px-4 py-2 focus:outline-none focus:border-black transition"
+                className="text-sm w-full border-2 border-zinc-200 rounded-lg px-4 py-2 focus:outline-none focus:border-black transition"
                 placeholder="Your name"
                 type="text"
                 name="name"
@@ -99,7 +91,7 @@ export default function Contact() {
               </label>
               <input
                 id="email"
-                className="w-full border-2 border-zinc-200 rounded-lg px-4 py-2 focus:outline-none focus:border-black transition"
+                className="text-sm w-full border-2 border-zinc-200 rounded-lg px-4 py-2 focus:outline-none focus:border-black transition"
                 placeholder="your.email@example.com"
                 type="email"
                 name="email"
@@ -116,7 +108,7 @@ export default function Contact() {
               </label>
               <textarea
                 id="message"
-                className="w-full border-2 border-zinc-200 rounded-lg px-4 py-2 focus:outline-none focus:border-black transition min-h-[150px] resize-y"
+                className="text-sm w-full border-2 border-zinc-200 rounded-lg px-4 py-2 focus:outline-none focus:border-black transition min-h-[150px] resize-y"
                 placeholder="What would you like to talk about?"
                 name="message"
                 required
@@ -124,7 +116,7 @@ export default function Contact() {
             </div>
 
             <button
-              className="bg-black text-white py-3 rounded-lg hover:bg-zinc-800 transition disabled:bg-zinc-400 disabled:cursor-not-allowed hover:cursor-pointer"
+              className="text-sm bg-black text-white py-3 rounded-lg hover:bg-zinc-800 transition disabled:bg-zinc-400 disabled:cursor-not-allowed hover:cursor-pointer"
               type="submit"
               disabled={isSubmitting}
             >

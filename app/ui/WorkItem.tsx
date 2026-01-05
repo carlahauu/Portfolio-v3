@@ -8,12 +8,12 @@ interface WorkItemProps {
   alt: string;
 }
 
-export default function WorkItem({
-  role,
-  company,
-  dates,
-  logo,
-  alt,
+export default function WorkItem({ 
+  role, 
+  company, 
+  dates, 
+  logo, 
+  alt 
 }: WorkItemProps) {
   return (
     <div className="flex space-x-3 flex-row">
@@ -24,7 +24,7 @@ export default function WorkItem({
         width={70}
         height={70}
       />
-      <div className="justify-center flex flex-col">
+      <div className="justify-center flex flex-col text-sm">
         <p>{role}</p>
         <p>{company}</p>
         <p>{dates}</p>

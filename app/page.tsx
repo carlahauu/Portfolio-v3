@@ -66,7 +66,7 @@ const projects = [
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans">
+    <div className="flex min-h-screen items-center justify-center text-sm">
       <main className="space-y-10 flex flex-col min-h-screen md:w-[50%] w-[90%] py-30">
         <div className="space-y-5">
           <p>

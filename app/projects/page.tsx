@@ -39,10 +39,10 @@ export default function Projects() {
           <SearchIcon className="absolute ml-4 mt-3.5 text-zinc-400" />
           <input
             type="text"
-            placeholder="Search projects by name, description, or tech stack..."
+            placeholder="Search projects by name, technology, or description..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full px-12 py-3 border-2 border-zinc-200 rounded-lg focus:outline-none focus:border-black transition"
+            className="text-sm w-full px-12 py-3 border-2 border-zinc-200 rounded-lg focus:outline-none focus:border-black transition"
           />
         </div>
 
@@ -73,7 +73,7 @@ export default function Projects() {
           )}
         </div>
 
-        <div className="flex space-x-1.5 text-zinc-500">
+        <div className="flex space-x-1.5 text-zinc-500 text-sm">
           <p>You can check out the rest of my projects</p>
           <Link
             className="underline underline-offset-5 hover:scale-98 hover:text-black"
